@@ -1,2 +1,26 @@
-# ETL-GDP
-This code is an ETL (Extract, Transform, Load) process that scrapes GDP data from a Wikipedia page,  transforms it, and loads it into a CSV file and a SQLite database.  The code uses the requests library to fetch the webpage,  BeautifulSoup to parse the HTML, pandas for data manipulation, and  sqlite3 for database operations.  The log function records the progress of the ETL process in a log file.
+# GDP Data ETL Pipeline
+
+A Python ETL (Extract, Transform, Load) pipeline that extracts GDP data from Wikipedia, processes it, and stores it in multiple formats.
+
+## Features
+
+- Web scraping of GDP data from Wikipedia
+- Data transformation and cleaning
+- Multi-format output (CSV, JSON, SQLite)
+- Comprehensive logging
+- Modular design for easy maintenance
+
+## Technologies Used
+
+- Python 3
+- BeautifulSoup4 (web scraping)
+- Pandas (data manipulation)
+- SQLite3 (database storage)
+- Requests (HTTP requests)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/gdp-etl-pipeline.git
+   cd gdp-etl-pipeline
