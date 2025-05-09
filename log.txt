@@ -1,0 +1,8 @@
+2025-05-08 12:51:41 - ETL process started
+2025-05-08 12:51:41 - Extracting data by using web scraping
+2025-05-08 12:51:42 - Creating DataFrame
+2025-05-08 12:51:42 - Transforming data
+2025-05-08 12:51:42 - loading data to csv
+2025-05-08 12:51:42 - loading data to json
+2025-05-08 12:51:42 - loading data to sqlite
+2025-05-08 12:51:42 - ETL process completed
