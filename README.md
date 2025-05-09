@@ -24,3 +24,14 @@ A Python ETL (Extract, Transform, Load) pipeline that extracts GDP data from Wik
    ```bash
    git clone https://github.com/yourusername/gdp-etl-pipeline.git
    cd gdp-etl-pipeline
+## Project Structure
+```markdown
+gdp-etl-pipeline/
+├── datasets/               # Processed data outputs
+│   ├── gdp.csv
+│   ├── gdp.json
+│   └── gdp.db
+├── main.py                 # Main script
+├── README.md               # This file
+├── requirements.txt        # Dependencies
+└── log.txt                 # Process logs
