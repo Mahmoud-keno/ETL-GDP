@@ -1,0 +1,2 @@
+# ETL-GDP
+This code is an ETL (Extract, Transform, Load) process that scrapes GDP data from a Wikipedia page,  transforms it, and loads it into a CSV file and a SQLite database.  The code uses the requests library to fetch the webpage,  BeautifulSoup to parse the HTML, pandas for data manipulation, and  sqlite3 for database operations.  The log function records the progress of the ETL process in a log file.
